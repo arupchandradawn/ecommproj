@@ -1,0 +1,7 @@
+.brand{
+    padding: 40px;
+    border: 2px solid rgb(248, 254, 197);
+    background-color: rgb(235, 215, 148);
+    margin: 10px;
+    flex: 1;
+}
