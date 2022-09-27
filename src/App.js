@@ -3,8 +3,8 @@ import './App.css';
 import Header from './Header';
 import HomePage from './HomePage';
 import {
-  BrowserRouter as Router,
   Switch,
+  BrowserRouter as Router,
   Route,
   Link
 } from "react-router-dom";
@@ -14,12 +14,12 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-        <Route>  
+        <Route exact path='/'>  
           <Header/>
-          <HomePage exact path='/'/>
+          <HomePage/>
         </Route>
 
-        <Route>  
+        <Route path='/plp'>  
           <Header/>
           {/* <PLP path='plp' /> */}
         </Route>
